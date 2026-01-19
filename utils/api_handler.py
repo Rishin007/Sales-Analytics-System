@@ -13,7 +13,6 @@ def fetch_product_info(product_id):
         "P109": "Mouse",
         "P110": "Charger"
     }
-
     return categories.get(product_id, "Unknown")
 
 def fetch_all_products():
