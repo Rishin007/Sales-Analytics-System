@@ -1,7 +1,4 @@
 def parse_transactions(raw_lines):
-    """
-    Parses raw lines into clean list of dictionaries
-    """
 
     transactions = []
 
